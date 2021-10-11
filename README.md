@@ -3,9 +3,9 @@ Atividades com funções em C++
 
 1) Crie uma função que receba um valor e informe se ele é positivo ou não.
 
-2 ) Crie uma função que receba três valores, 'a', 'b' e 'c', que são os coeficientes de uma equação do segundo grau e retorne o valor do delta, que é dado por 'b² - 4ac'
+2) Crie uma função que receba três valores, 'a', 'b' e 'c', que são os coeficientes de uma equação do segundo grau e retorne o valor do delta, que é dado por 'b² - 4ac'
 
-3)  Crie uma função em linguagem C++ que receba 3 números e retorne o maior valor.
+3) Crie uma função em linguagem C++ que receba 3 números e retorne o maior valor.
 
 4) Crie uma função em linguagem C++ que receba 3 números e retorne o menor valor.
 
