@@ -3,9 +3,9 @@
 
 using namespace std;
 
-int parOuImpar (int numero){
+float positivoOuNegativo (float numero){
 	
-	if (numero % 2 == 0){
+	if (numero >= 0){
 		return 1;
 	}
 	return 0;
@@ -15,17 +15,16 @@ int main(){
 	
 	setlocale(LC_ALL,"Portuguese");
 	
-	int n = 0;
+	float n = 0;
 	
-	cout << "Digite um número: ";
+	cout << "Digite um nÃºmero: ";
 	cin >> n;
 	
-	if(parOuImpar(n)){
-		cout << "\nO número: " << n << " é par" << endl;
+	if(n >=0){
+		cout << "\nO nÃºmero: " << n << " Ã© positivo" << endl;
 	} else{
-		cout << "\nO número: " << n << " é impar" << endl;
+		cout << "\nO nÃºmero: " << n << " Ã© negativo" << endl;
 	}
 	
 	return 0;
 }
-
