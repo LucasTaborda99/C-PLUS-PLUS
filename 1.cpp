@@ -3,7 +3,7 @@
 
 using namespace std;
 
-float positivoOuNegativo (float numero){
+int positivoOuNegativo (int numero){
 	
 	if (numero >= 0){
 		return 1;
@@ -15,15 +15,15 @@ int main(){
 	
 	setlocale(LC_ALL,"Portuguese");
 	
-	float n = 0;
+	int n = 0;
 	
 	cout << "Digite um número: ";
 	cin >> n;
-	
-	if(n >=0){
-		cout << "\nO número: " << n << " é positivo" << endl;
-	} else{
+		
+	if (positivoOuNegativo(n) == 0){
 		cout << "\nO número: " << n << " é negativo" << endl;
+	} else{
+		cout << "\nO número: " << n << " é positivo" << endl;
 	}
 	
 	return 0;
